@@ -1,0 +1,132 @@
+{
+	/*
+	 // Place your snippets for C# here. Each snippet is defined under a snippet name and has a prefix, body and 
+	 // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	 // $1, $2 for tab stops, ${id} and ${id:label} and ${1:label} for variables. Variables with the same id are connected.
+	 // Example:
+	 "Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	}
+*/
+	"Action call": {
+		"prefix": "action_call",
+		"body": [
+			"if (${Action name} != null) {",
+			"\t${Action name}();",
+			"}"
+		],
+		"description": "Call a Action event"
+	},
+	"Unity Assert": {
+		"prefix": "unity_assert",
+		"body": [
+			"UnityEngine.Assertions.Assert.${Assert method}(${condition}, \"[${Script name}] ${Assert message}\");"
+		],
+		"description": "Unity Assert checks."
+	},
+	"Event subscribe": {
+		"prefix": "event_sub",
+		"body": "${field_name}.${event_name} += ${event_name}_handler;",
+		"description": "Subscribes to an event."
+	},
+	"Event unsubscribe": {
+		"prefix": "event_unsub",
+		"body": "${field_name}.${event_name} -= ${event_name}_handler;",
+		"description": "Unsubscribes from an event."
+	},
+	"Event handler method": {
+		"prefix": "event_handler",
+		"body": [
+			"private void ${event_name}_handler(${optional_args})",
+			"{",
+			"\t${// your_code_here}",
+			"}"
+		],
+		"description": "Adds a event handler method."
+	},
+	"Unity Coroutines": {
+		"prefix": "unity_coroutine",
+		"body": [
+			"private IEnumerator ${Basic}Routine()",
+			"{",
+			"\t${yield return null;}",
+			"}"
+		],
+		"description": "Adds a Unity coroutine method."
+	},
+	"Unity Coroutines with args": {
+		"prefix": "unity_coroutine_args",
+		"body": [
+			"private IEnumerator ${Basic}Routine(${args})",
+			"{",
+			"\t${yield return null;}",
+			"}"
+		],
+		"description": "Adds a Unity coroutine method with args."
+	},
+	"Unity Coroutine start": {
+		"prefix": "unity_coroutine_start",
+		"body": [
+			"StartCoroutine(${coroutine_method}());"
+		],
+		"description": "Starts an unity coroutine."
+	},
+	"Unity Coroutine start with args": {
+		"prefix": "unity_coroutine_start_args",
+		"body": [
+			"StartCoroutine(${coroutine_method}(${args}));"
+		],
+		"description": "Starts an unity coroutine with args."
+	},
+	"Unity Coroutine stop": {
+		"prefix": "unity_coroutine_stop",
+		"body": [
+			"StopCoroutine(${coroutine_ref});"
+		],
+		"description": "Stops an unity coroutine."
+	},
+	"Unity basic region structure": {
+		"prefix": "unity_regions",
+		"body": [
+			"#region SerializableData",
+			"\t",
+			"#endregion",
+			"\t",
+			"#region Private fields",
+			"\t",
+			"#endregion",
+			"\t",
+			"#region Public methods and properties",
+			"\t",
+			"#endregion",
+			"\t",
+			"#region Private methods",
+			"\t",
+			"#endregion",
+			"\t",
+			"#region Monobehaviour methods",
+			"\t",
+			"#endregion"
+		],
+		"description": "Adds general regions used for code structure."
+	},
+	"File signature": {
+		"prefix": "file_signature",
+		"body": [
+			"//===----------------------------------------------------------------------===//",
+			"//",
+			"//  vim: ft=cs tw=80",
+			"//",
+	"//  Date:    ${1:CMD+SHIFT+I/CTRL+SHIFT+I}",
+			"//  Creator: Molosnic Dumitru <dmolosnic@bullyentertainment.com>",
+			"//",
+			"//===----------------------------------------------------------------------===//"
+		],
+		"description": "adds file signature."
+	}
+}

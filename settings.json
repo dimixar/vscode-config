@@ -1,0 +1,20 @@
+{
+    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.fontSize": 12,
+    "editor.fontLigatures": true,
+    "editor.insertSpaces": true,
+    "diffEditor.renderSideBySide": true,
+    "editor.renderWhitespace": "all",
+    "editor.renderIndentGuides": true,
+    "editor.tabSize": 4,
+    "rust.rustLangSrcPath": "/Volumes/DataHD/rust/src",
+    "vim.easymotion": true,
+    "editor.lineNumbers": "relative",
+    "editor.formatOnType": true,
+    "editor.snippetSuggestions": "inline",
+    "editor.cursorBlinking": "expand",
+    "editor.cursorStyle": "line",
+    "debug.allowBreakpointsEverywhere": true,
+    "extensions.autoUpdate": true,
+    "workbench.welcome.enabled": true
+}
