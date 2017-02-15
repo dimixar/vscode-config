@@ -16,5 +16,6 @@
     "editor.cursorStyle": "line",
     "debug.allowBreakpointsEverywhere": true,
     "extensions.autoUpdate": true,
-    "workbench.welcome.enabled": true
+    "workbench.welcome.enabled": true,
+    "window.zoomLevel": 0
 }
