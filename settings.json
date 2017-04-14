@@ -8,14 +8,28 @@
     "editor.renderIndentGuides": true,
     "editor.tabSize": 4,
     "rust.rustLangSrcPath": "/Volumes/DataHD/rust/src",
-    "vim.easymotion": true,
-    "editor.lineNumbers": "relative",
+    "editor.lineNumbers": "on",
     "editor.formatOnType": true,
     "editor.snippetSuggestions": "inline",
     "editor.cursorBlinking": "expand",
-    "editor.cursorStyle": "line",
+    "editor.cursorStyle": "line-thin",
     "debug.allowBreakpointsEverywhere": true,
     "extensions.autoUpdate": true,
     "workbench.welcome.enabled": true,
-    "window.zoomLevel": 0
+    "window.zoomLevel": 0,
+    "editor.minimap.enabled": true,
+    "editor.minimap.maxColumn": 120,
+    "editor.minimap.renderCharacters": false,
+    "workbench.iconTheme": "vs-seti",
+    "vim.easymotion": true,
+    "[cpp]": {
+        "editor.quickSuggestions": false
+    },
+    "[c]": {
+        "editor.quickSuggestions": false
+    },
+    "files.eol": "\n",
+    "vim.leader": "\\",
+    "vim.easymotionChangeBackgroundColor": true,
+    "vim.hlsearch": true
 }
