@@ -1,0 +1,15 @@
+// Поместите настраиваемые сочетания клавиш в этот файл, чтобы перезаписать клавиши по умолчанию.
+[
+    {
+        "key": "ctrl+g s",
+        "command": "git.stageSelectedRanges"
+    },
+    {
+        "key": "ctrl+g u",
+        "command": "git.unstageSelectedRanges"
+    },
+    {
+        "key": "ctrl+g ctrl+l",
+        "command": "git.viewHistory"
+    }
+]

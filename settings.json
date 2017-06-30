@@ -1,13 +1,12 @@
 {
-    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "Hasklig, 'Fira Code', Consolas, 'Courier New', monospace",
     "editor.fontSize": 12,
     "editor.fontLigatures": true,
     "editor.insertSpaces": true,
-    "diffEditor.renderSideBySide": true,
-    "editor.renderWhitespace": "all",
+    "diffEditor.renderSideBySide": false,
+    "editor.renderWhitespace": "none",
     "editor.renderIndentGuides": true,
     "editor.tabSize": 4,
-    "rust.rustLangSrcPath": "/Volumes/DataHD/rust/src",
     "editor.lineNumbers": "on",
     "editor.formatOnType": true,
     "editor.snippetSuggestions": "inline",
@@ -17,8 +16,8 @@
     "extensions.autoUpdate": true,
     "workbench.welcome.enabled": true,
     "window.zoomLevel": 0,
-    "editor.minimap.enabled": true,
-    "editor.minimap.maxColumn": 120,
+    "editor.minimap.enabled": false,
+    "editor.minimap.maxColumn": 80,
     "editor.minimap.renderCharacters": false,
     "workbench.iconTheme": "vs-seti",
     "vim.easymotion": true,
@@ -30,6 +29,98 @@
     },
     "files.eol": "\n",
     "vim.leader": "\\",
-    "vim.easymotionChangeBackgroundColor": true,
-    "vim.hlsearch": true
+    "vim.hlsearch": true,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "omnisharp.useEditorFormattingSettings": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.meta": true
+    },
+    "files.trimTrailingWhitespace": true,
+    "window.newWindowDimensions": "maximized",
+    "window.menuBarVisibility": "toggle",
+    "editor.formatOnPaste": true,
+    "vim.disableAnnoyingNeovimMessage": true,
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#005f5f",
+        "statusBar.noFolderBackground": "#005f5f",
+        "statusBar.debuggingBackground": "#005f5f"
+    },
+    "vim.disableAnnoyingGcMessage": true,
+    "csharp.suppressHiddenDiagnostics": true,
+    "todohighlight.keywords": [
+        {
+            "text": "NOTE", // custom text to be highlighted
+            "color": "#9b9b9b", // the text color, any css color identifier is valid
+            "backgroundColor": "rgba(0,0,0,.2)", // the text background color
+            "overviewRulerColor": "grey" //the color of the ruler mark on the scroll bar. use rgba() and define transparent colors to play well with other decorations.
+        },
+        {
+            "text": "HACK",
+            "color": "#ff5050",
+            "backgroundColor": "rgba(0,0,0,.2)",
+            "overviewRulerColor": "#ff5050"
+        },
+        {
+            "text": "NOTE:", // custom text to be highlighted
+            "color": "#9b9b9b", // the text color, any css color identifier is valid
+            "backgroundColor": "rgba(0,0,0,.2)", // the text background color
+            "overviewRulerColor": "grey" //the color of the ruler mark on the scroll bar. use rgba() and define transparent colors to play well with other decorations.
+        },
+        {
+            "text": "HACK:",
+            "color": "#ff5050",
+            "backgroundColor": "rgba(0,0,0,.2)",
+            "overviewRulerColor": "#ff5050"
+        },
+        { //this block will override the built-in keyword `TODO:` and give it new style
+            "text": "TODO:",
+            "color": "#A6CCE7",
+            "backgroundColor": "rgba(0,0,0,.2)",
+            "overviewRulerColor": "#a6cce7"
+        },
+        { //this block will override the built-in keyword `TODO:` and give it new style
+            "text": "TODO",
+            "color": "#A6CCE7",
+            "backgroundColor": "rgba(0,0,0,.2)",
+            "overviewRulerColor": "#a6cce7"
+        },
+        {
+            "text": "FIXME",
+            "color": "red",
+            "backgroundColor": "rgba(0,0,0,.2)",
+            "overviewRulerColor": "red"
+        },
+        {
+            "text": "FIXME:",
+            "color": "red",
+            "backgroundColor": "rgba(0,0,0,.2)",
+            "overviewRulerColor": "red"
+        }
+    ],
+    "todohighlight.defaultStyle": {
+        "color": "white",
+        "backgroundColor": "black",
+        "overviewRulerColor": ""
+    },
+    "vim.useCtrlKeys": false,
+    "workbench.colorTheme": "eppz!",
+    "workbench.sideBar.location": "left",
+    "omnisharp.projectLoadTimeout": 180,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.quickSuggestionsDelay": 25,
+    "editor.renderControlCharacters": true,
+    "editor.showFoldingControls": "always",
+    "gitlens.blame.line.annotationType": "hover",
+    "csharpfixformat.style.braces.onSameLine": false,
+    "csharpfixformat.style.spaces.afterBracket": true,
+    "csharpfixformat.style.activateDefaultFormatterAfter": true
 }

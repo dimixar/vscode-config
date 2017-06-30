@@ -1,6 +1,6 @@
 {
 	/*
-	 // Place your snippets for C# here. Each snippet is defined under a snippet name and has a prefix, body and 
+	 // Place your snippets for C# here. Each snippet is defined under a snippet name and has a prefix, body and
 	 // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
 	 // $1, $2 for tab stops, ${id} and ${id:label} and ${1:label} for variables. Variables with the same id are connected.
 	 // Example:
@@ -90,30 +90,23 @@
 		],
 		"description": "Stops an unity coroutine."
 	},
-	"Unity basic region structure": {
+	"Unity Regions": {
 		"prefix": "unity_regions",
 		"body": [
-			"#region SerializableData",
-			"\t",
+			"#region Serialized Data",
 			"#endregion",
-			"\t",
 			"#region Private fields",
-			"\t",
 			"#endregion",
-			"\t",
-			"#region Public methods and properties",
-			"\t",
+			"#region Public Methods and Properties",
 			"#endregion",
-			"\t",
-			"#region Private methods",
-			"\t",
+			"#region Interfaces",
 			"#endregion",
-			"\t",
 			"#region Monobehaviour methods",
-			"\t",
+			"#endregion",
+			"#region Private methods",
 			"#endregion"
 		],
-		"description": "Adds general regions used for code structure."
+		"description": "Add standard regions for script."
 	},
 	"File signature": {
 		"prefix": "file_signature",
