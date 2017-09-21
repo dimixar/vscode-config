@@ -4,7 +4,7 @@
     "editor.fontLigatures": true,
     "editor.insertSpaces": true,
     "diffEditor.renderSideBySide": false,
-    "editor.renderWhitespace": "none",
+    "editor.renderWhitespace": "all",
     "editor.renderIndentGuides": true,
     "editor.tabSize": 4,
     "editor.lineNumbers": "on",
@@ -14,7 +14,6 @@
     "editor.cursorStyle": "line-thin",
     "debug.allowBreakpointsEverywhere": true,
     "extensions.autoUpdate": true,
-    "workbench.welcome.enabled": true,
     "window.zoomLevel": 0,
     "editor.minimap.enabled": false,
     "editor.minimap.maxColumn": 80,
@@ -31,7 +30,7 @@
     "vim.leader": "\\",
     "vim.hlsearch": true,
     "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "omnisharp.useEditorFormattingSettings": true,
+    "omnisharp.useEditorFormattingSettings": false,
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -50,7 +49,6 @@
         "statusBar.noFolderBackground": "#005f5f",
         "statusBar.debuggingBackground": "#005f5f"
     },
-    "vim.disableAnnoyingGcMessage": true,
     "csharp.suppressHiddenDiagnostics": true,
     "todohighlight.keywords": [
         {
@@ -116,11 +114,13 @@
         "comments": true,
         "strings": true
     },
-    "editor.quickSuggestionsDelay": 25,
+    "editor.quickSuggestionsDelay": 10,
     "editor.renderControlCharacters": true,
     "editor.showFoldingControls": "always",
     "gitlens.blame.line.annotationType": "hover",
     "csharpfixformat.style.braces.onSameLine": false,
     "csharpfixformat.style.spaces.afterBracket": true,
-    "csharpfixformat.style.activateDefaultFormatterAfter": true
+    "debug.openExplorerOnEnd": true,
+    "debug.inlineValues": true,
+    "eppz-code.disableAnalytics": true
 }
