@@ -7,7 +7,7 @@
     "editor.renderWhitespace": "all",
     "editor.renderIndentGuides": true,
     "editor.tabSize": 4,
-    "editor.lineNumbers": "on",
+    "editor.lineNumbers": "relative",
     "editor.formatOnType": true,
     "editor.snippetSuggestions": "inline",
     "editor.cursorBlinking": "expand",
@@ -122,5 +122,13 @@
     "csharpfixformat.style.spaces.afterBracket": true,
     "debug.openExplorerOnEnd": true,
     "debug.inlineValues": true,
-    "eppz-code.disableAnalytics": true
+    "eppz-code.disableAnalytics": true,
+    "editor.detectIndentation": true,
+    "editor.smoothScrolling": true,
+    "editor.autoIndent": true,
+    "editor.useTabStops": true,
+    "zenMode.hideStatusBar": false,
+    "csharp.format.enable": false,
+    "csharpfixformat.style.spaces.afterParenthesis": false,
+    "csharpfixformat.style.spaces.beforeParenthesis": false
 }
