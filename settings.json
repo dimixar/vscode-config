@@ -133,4 +133,5 @@
     "csharpfixformat.style.spaces.beforeParenthesis": false,
     "gitlens.blame.line.enabled": true,
     "gitlens.codeLens.enabled": true,
+    "git.autofetch": true,
 }
